@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style> 
+        .berkground {
+            background-image: url('Skimage.png'); 
+            background-size: 100% 100%; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body id="berkbod">
     <h1>hello worl</h1>
+    <img src="Skimage.png" onclick="document.getElementById('berkbod').classList.add('berkground')">
 </body>
 </html>
